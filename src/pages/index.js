@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Button from "../components/button"
+import Service from "../components/service"
 import GetStarted from "../components/getstarted";
 import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
 import heroUnderline from "..//images/digitl-agency-underline.png";
@@ -16,9 +17,9 @@ function IndexPage() {
         title="Home"
       />
 
-      <section className="h-screen py-6 flex flex-col justify-center bg-gray-900 bg-cover" style={{ backgroundImage: `url(${heroBGImage})` }}>
+      <section className="h-screen min-h-full py-6 flex flex-col justify-center bg-gray-900 bg-cover" style={{ backgroundImage: `url(${heroBGImage})` }}>
         <div className="absolute inset-0 bg-gray-900 opacity-70"></div>
-        <div className="relative container text-center">
+        <div className="relative container text-center space-y-12">
           <div className="max-w-screen-sm mx-auto">
             <h1 className="relative z-20 text-6xl lg:text-9xl font-bold text-white leading-none font-display tracking-tighter">
               Pixels with Purpose
@@ -65,22 +66,10 @@ function IndexPage() {
         <div className="container">
          
             <div className="max-w-screen-xl mx-auto flex justify-between space-x-12">
-              <div className="text-center space-y-6">
-                <i className="icon-mobile text-8xl text-blue-700"></i>
-                <p className="uppercase text-xs tracking-widest text-white font-display">development</p>
-              </div>
-              <div className="text-center space-y-6">
-                <i className="icon-desktop text-8xl text-blue-700"></i>
-                <p className="uppercase text-xs tracking-widest text-white font-display">design</p>
-              </div>
-              <div className="text-center space-y-6">
-                <i className="icon-pictures text-8xl text-blue-700"></i>
-                <p className="uppercase text-xs tracking-widest text-white font-display">editing</p>
-              </div>
-              <div className="text-center space-y-6">
-                <i className="icon-mobile text-8xl text-blue-700"></i>
-                <p className="uppercase text-xs tracking-widest text-white font-display">consultancy</p>
-              </div>
+              <Service icon="icon-mobile">Development</Service>
+              <Service icon="icon-desktop">design</Service>
+              <Service icon="icon-pictures">editing</Service>
+              <Service icon="icon-desktop">consultancy</Service>
             </div>
          
         </div>

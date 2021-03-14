@@ -3,6 +3,9 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: ["./src/**/*.js"],
   theme: {
+    minHeight: {
+      'full': '850px',
+    },
     extend: {
       fontFamily: {
         display: ['Poppins', ...defaultTheme.fontFamily.sans],
