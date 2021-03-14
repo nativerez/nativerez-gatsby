@@ -8,29 +8,37 @@
 
     @font-face {
         font-family: "DroidSerif-Regular";
-        src: url("/fonts/droidserif/DroidSerif-Regular-webfont.woff") format("woff");
+        src:url('../fonts/droidserif/DroidSerif-Regular-webfont.eot');
+        src:url('../fonts/droidserif/DroidSerif-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/droidserif/DroidSerif-Regular-webfont.woff') format('woff'),
+            url('../fonts/droidserif/DroidSerif-Regular-webfont.ttf') format('truetype'),
+            url('../fonts/droidserif/DroidSerif-Regular-webfont.svg#DroidSerif-Regular') format('svg');
         font-weight: 400;
         font-style: normal;
     }
     
     @font-face {
         font-family: "DroidSerif-Bold";
-        src: url("/fonts/droidserif/DroidSerif-Bold-webfont.woff") format("woff");
+        src:url('../fonts/droidserif/DroidSerif-Bold-webfont.eot');
+        src:url('../fonts/droidserif/DroidSerif-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/droidserif/DroidSerif-Bold-webfont.woff') format('woff'),
+            url('../fonts/droidserif/DroidSerif-Bold-webfont.ttf') format('truetype'),
+            url('../fonts/droidserif/DroidSerif-Bold-webfont.svg#DroidSerif-Bold') format('svg');
         font-weight: 700;
         font-style: normal;
     }
-
+    
     @font-face {
         font-family: 'et-line';
-        src:url('/fonts/et-line-icons/et-line.eot');
-        src:url('/fonts/et-line-icons/et-line.eot?#iefix') format('embedded-opentype'),
-            url('/fonts/et-line-icons/et-line.woff') format('woff'),
-            url('/fonts/et-line-icons/et-line.ttf') format('truetype'),
-            url('/fonts/et-line-icons/et-line.svg#et-line') format('svg');
+        src:url('../fonts/et-line-icons/et-line.eot');
+        src:url('../fonts/et-line-icons/et-line.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/et-line-icons/et-line.woff') format('woff'),
+            url('../fonts/et-line-icons/et-line.ttf') format('truetype'),
+            url('../fonts/et-line-icons/et-line.svg#et-line') format('svg');
         font-weight: normal;
         font-style: normal;
     }
-    
+
     /* Use the following CSS code if you want to use data attributes for inserting your icons */
     [data-icon]:before {
         font-family: 'et-line';
