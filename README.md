@@ -5,9 +5,7 @@
   Uses Tailwind CSS' built-in purge option to remove unused CSS.<br />
 </div>
   
-![alt text](https://i.ibb.co/McWdstP/localhost-8000-contact-i-Pad-Pro-1.png "Screenshot of Gatsby Starter Tailwind homepage")
-  
-<p align="center">View demo <a href="https://gatsby-starter-tailwind.taylorbryant.dev/">here</a>.</p>
+<p align="center">View site <a href="https://www.nativerez.co.uk">here</a>.</p>
 
 ## What is Tailwind CSS?
 
